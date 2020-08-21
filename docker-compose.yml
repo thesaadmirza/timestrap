@@ -15,6 +15,7 @@ services:
       - POSTGRES_DB=timestrap
       - POSTGRES_USER=timestrap
       - POSTGRES_PASSWORD=timestrap
+      - CHOKIDAR_USEPOLLING=true
     depends_on:
       - db
       - redis
@@ -25,9 +26,9 @@ services:
     image: postgres
     container_name: timestrap_postgres
     environment:
-      - POSTGRES_DB=timestrap
-      - POSTGRES_USER=timestrap
-      - POSTGRES_PASSWORD=timestrap
+      - POSTGRES_DB=eliza
+      - POSTGRES_USER=gis
+      - POSTGRES_PASSWORD=root
       - PGDATA=/db-data
     volumes:
       - timestrapdb:/db-data
@@ -46,3 +47,5 @@ networks:
 
 volumes:
   timestrapdb: {}
+
+

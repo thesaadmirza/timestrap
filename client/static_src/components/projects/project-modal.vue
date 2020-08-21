@@ -19,7 +19,7 @@
     </div>
     <div class="form-group row">
       <label for="project-client" class="col-sm-4 col-form-label text-muted">
-        Client
+        Student
       </label>
       <div class="col-sm-8">
         <selector
@@ -29,19 +29,7 @@
           :selected="client"/>
       </div>
     </div>
-    <div class="form-group row">
-      <label for="project-estimate" class="col-sm-4 col-form-label text-muted">
-        Estimate
-      </label>
-      <div class="col-sm-8">
-        <input
-          class="form-control shadow-sm"
-          id="project-estimate"
-          name="project-estimate"
-          v-model="estimate"
-          placeholder="Empty"/>
-      </div>
-    </div>
+
     <div class="row">
       <div class="col-sm-4 text-muted">
         Archive

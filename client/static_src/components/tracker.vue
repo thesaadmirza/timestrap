@@ -8,7 +8,7 @@
             v-model="client"
             :options="clients"
             :selected="client"
-            placeholder="Client"
+            placeholder="Student"
           />
         </div>
 
@@ -18,7 +18,7 @@
             v-model="project"
             :options="projects"
             :selected="project"
-            placeholder="Project"
+            placeholder="Class"
             required
           />
         </div>
@@ -29,7 +29,7 @@
             v-model="task"
             :options="tasks"
             :selected="task"
-            placeholder="Task"
+            placeholder="Teacher"
             required
           />
         </div>

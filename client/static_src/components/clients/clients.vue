@@ -5,7 +5,7 @@
   @search="search = $event">
   <template slot="cards-title">
     <icon :icon="['fas', 'address-book']" class="fa-sm mr-2"/>
-    Clients
+    Students
   </template>
 
   <template slot="cards-list">

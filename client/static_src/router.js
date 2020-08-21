@@ -6,7 +6,7 @@ import Clients from './components/clients/clients.vue';
 import Tasks from './components/tasks/tasks.vue';
 import Timesheet from './components/timesheet/timesheet.vue';
 import Reports from './components/reports/reports.vue';
-
+import Details from './components/reports/details.vue';
 
 Vue.use(VueRouter);
 
@@ -45,6 +45,12 @@ export default new VueRouter({
       name: 'reports',
       component: Reports,
       meta: {title: 'Reports — ' + timestrapConfig.SITE.NAME},
+    },
+    {
+      path: '/details/',
+      name: 'details',
+      component: Details,
+      meta: {title: 'Details — ' + timestrapConfig.SITE.NAME},
     },
   ],
 });

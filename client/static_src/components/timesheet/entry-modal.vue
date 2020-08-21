@@ -21,7 +21,7 @@
     </div>
     <div class="form-group row">
       <label for="entry-task" class="col-sm-4 col-form-label text-muted">
-        Tasks
+        Teacher
       </label>
       <div class="col-sm-8">
         <selector
@@ -33,7 +33,7 @@
     </div>
     <div class="form-group row">
       <label for="entry-project" class="col-sm-4 col-form-label text-muted">
-        Project
+        Class
       </label>
       <div class="col-sm-8">
         <selector
